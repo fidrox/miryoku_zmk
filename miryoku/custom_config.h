@@ -2,6 +2,7 @@
 // https://github.com/manna-harbour/miryoku
 
 #define XXX &none
+#define MIRYOKU_ALPHAS_QWERTY
 
 #define MIRYOKU_LAYOUTMAPPING_CORNE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
