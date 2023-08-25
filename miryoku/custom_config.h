@@ -67,5 +67,5 @@ MIRYOKU_X(SWITCH,   "Switch")
 #define U_SYM    8
 #define U_FUN    9
 #define U_REM   10
-#define U_REM   11
+#define U_SWITCH   11
 
