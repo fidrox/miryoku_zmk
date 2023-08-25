@@ -12,7 +12,7 @@ U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, TAB),U_LT(U_SWITCH, RET),U_LT(U_SYM, SPACE),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SWITCH \
-&u_to_U_REM,       &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp D,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&u_to_U_REM,       &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp D,             &u_to_U_REM,       U_REM,             U_CPY,             U_CUT,             U_UND,             \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
 U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     U_NA,              U_NU,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
