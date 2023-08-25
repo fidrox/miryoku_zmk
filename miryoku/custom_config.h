@@ -18,7 +18,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, TAB),U_LT(U
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),&kp M,&kp SPACE,U_LT(U_MOUSE, SPACE),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SWITCH \
-&u_to_U_REM,       &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp D,             &u_to_U_REM,       U_NU,             U_CPY,             U_CUT,             U_UND,             \
+&u_to_U_REM,       &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp D,             &u_to_U_REM,       TD(U_TD_U_REM),             U_CPY,             U_CUT,             U_UND,             \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
 U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     U_NA,              U_NU,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
@@ -48,7 +48,8 @@ MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
 MIRYOKU_X(REM,   "Remnant") \
-MIRYOKU_X(SWITCH,   "Switch")
+MIRYOKU_X(SWITCH,   "Switch") \
+MIRYOKU_X(REM,   "Remnant") 
 
 
 
@@ -67,6 +68,6 @@ MIRYOKU_X(SWITCH,   "Switch")
 #define U_NUM    7
 #define U_SYM    8
 #define U_FUN    9
-#define U_REM   10
-#define U_SWITCH   11
+#define U_SWITCH   10
+#define U_REM   11
 
