@@ -47,7 +47,6 @@ MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
-MIRYOKU_X(REM,   "Remnant") \
 MIRYOKU_X(SWITCH,   "Switch") \
 MIRYOKU_X(REM,   "Remnant") 
 
