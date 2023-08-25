@@ -2,7 +2,7 @@
 // https://github.com/manna-harbour/miryoku
 
 #define XXX &none
-#define MIRYOKU_ALTERNATIVES_NAV_VI
+// #define MIRYOKU_ALTERNATIVES_NAV_VI
 // #define MIRYOKU_ALPHAS_QWERTY
 
 #define MIRYOKU_LAYER_BASE \
