@@ -18,11 +18,16 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, TAB),U_LT(U
 U_NP,              U_NP,              &kp ESC,&kp LCTRL,&kp SPACE,U_LT(U_MOUSE, SPACE),  U_LT(U_NUM, BSPC), &u_to_U_BASE,  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SWITCH \
-&u_to_U_REM,       &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp D,             &u_to_U_REM,       U_NU,              U_CPY,             U_CUT,             U_UND,             \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
+&u_to_U_REM,       &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &u_to_U_REM,             U_NU,       U_NU,              U_CPY,             U_CUT,             U_UND,             \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &u_to_U_COLEMAK,              U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
 U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     U_NA,              U_NU,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
+#define MIRYOKU_LAYER_COLEMAK \
+&kp Q,             &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
+&kp A,     &kp R,     &kp S,    &kp T,    &kp D,             &kp H,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    &kp I,     &kp O,     \
+U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, RET),U_LT(U_MOUSE, SPACE),U_LT(U_SYM, SPACE),  U_LT(U_NUM, BSPC), &u_to_U_BASE,  U_NP,              U_NP
 
 
 // #define MIRYOKU_LAYOUTMAPPING_CORNE( \
@@ -39,6 +44,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
 MIRYOKU_X(EXTRA,  "Extra") \
+MIRYOKU_X(COLEMAK,    "Colemak") \
 MIRYOKU_X(TAP,    "Tap") \
 MIRYOKU_X(BUTTON, "Button") \
 MIRYOKU_X(NAV,    "Nav") \
@@ -54,19 +60,21 @@ MIRYOKU_X(REM,   "Remnant")
 
 #define MIRYOKU_LAYERMAPPING_REM MIRYOKU_MAPPING
 #define MIRYOKU_LAYERMAPPING_SWITCH MIRYOKU_MAPPING
+#define MIRYOKU_LAYERMAPPING_COLEMAK MIRYOKU_MAPPING
 
 
 
 #define U_BASE   0
 #define U_EXTRA  1
-#define U_TAP    2
-#define U_BUTTON 3
-#define U_NAV    4
-#define U_MOUSE  5
-#define U_MEDIA  6
-#define U_NUM    7
-#define U_SYM    8
-#define U_FUN    9
-#define U_SWITCH   10
-#define U_REM   11
+#define U_COLEMAK    2
+#define U_TAP    4
+#define U_BUTTON 5
+#define U_NAV    6
+#define U_MOUSE  7
+#define U_MEDIA  8
+#define U_NUM    9
+#define U_SYM    10
+#define U_FUN    11
+#define U_SWITCH   12
+#define U_REM   13
 
