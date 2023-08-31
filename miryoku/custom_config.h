@@ -26,8 +26,8 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_LAYER_COLEMAK \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,     &kp R,     &kp S,    &kp T,    &kp D,             &kp H,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    &kp I,     &kp O,     \
-U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, RET),U_LT(U_MOUSE, SPACE),U_LT(U_SYM, SPACE),  U_LT(U_NUM, BSPC), &u_to_U_BASE,  U_NP,              U_NP
+U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             jCOMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, RET),U_LT(U_MOUSE, SPACE),U_LT(U_SYM, SPACE),  U_LT(U_NUM, BSPC), &kp TAB,  U_NP,              U_NP
 
 
 // #define MIRYOKU_LAYOUTMAPPING_CORNE( \
