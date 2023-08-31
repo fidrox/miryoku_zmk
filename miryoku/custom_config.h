@@ -67,14 +67,14 @@ MIRYOKU_X(REM,   "Remnant")
 #define U_BASE   0
 #define U_EXTRA  1
 #define U_COLEMAK    2
-#define U_TAP    4
-#define U_BUTTON 5
-#define U_NAV    6
-#define U_MOUSE  7
-#define U_MEDIA  8
-#define U_NUM    9
-#define U_SYM    10
-#define U_FUN    11
-#define U_SWITCH   12
-#define U_REM   13
+#define U_TAP    3
+#define U_BUTTON 4
+#define U_NAV    5
+#define U_MOUSE  6
+#define U_MEDIA  7
+#define U_NUM    8
+#define U_SYM    9
+#define U_FUN    10
+#define U_SWITCH   11
+#define U_REM   12
 
